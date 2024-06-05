@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grene{
+    background-color: #52BD94 !important;
+}
+
+.gren{
+    color: #52BD94 !important;
+}
+.section{
+    background: linear-gradient(90deg, rgb(202, 241, 226) 0%, rgba(255, 255, 255, 0.13769257703081228) 52%, rgb(202, 241, 226) 100%);
+}
+.im{
+    width: 40rem;
+}
+@media (min-width:250px) and (max-width:500px){
+    .im {
+        margin-top: 40px;
+        width: 17rem;
+    }
+}
+@media (min-width:501px) and (max-width:750px) {    
+    .im {
+        width: 30rem;
+        margin-top: 40px;
+        }
+}
+@media (min-width:751px) and (max-width:1000px) {
+    .im {
+            width: 22rem;
+            margin-top: 40px;
+        }
+}
+@media (min-width:1001px) and (max-width:1300px) {
+    .im {
+            width: 30rem;
+        }
+}
+.section3{
+    background: linear-gradient(90deg, rgba(84, 189, 149, 0.705) 0%, rgba(196, 193, 193, 0.068) 0%, rgba(208, 244, 230, 1) 100%);
+}
+.hau{
+    width: 60%;
+    position: relative;
+    top: 160px;
+    right: 100px;
+}
+
+.left{
+    width: 150px;
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+.bas{
+    position: relative;
+    bottom: 40px;
+    right: 90px;
+}
+.pad{
+    padding-top: 125px;
+}
+@media (min-width:250px) and (max-width:990px) {
+        .hau {
+            width: 100%;
+            position: static; 
+        }
+        .bas{
+            display: none;
+        }
+        .left{
+            display: none;
+        }
+}
+.price-item {
+    box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
+    background: #fff;
+    border-radius: 15px;
+}
+.bt{
+    box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
+}
+.bac-ver{
+    background-color: #52BD94;
+}
+.blan{
+    background-color: rgba(255, 255, 255, 0.199) !important;
+}
+@media (min-width:200px) and (max-width:410px) {
+    .cla{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.fa-solid{
+    background-color: #52BD94;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+@media (min-width:200px) and (max-width:550px) {
+    .colo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width:551px) and (max-width:990px) {
+        .fa-solid {
+                margin-left: 3px;
+            }
+}
+@media (min-width:250px) and (max-width:700px) {
+    .coll {
+        display: flex;
+        flex-direction: column;
+    }
+}
