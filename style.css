@@ -74,6 +74,9 @@
 .nav .active{
     background-color: #52BD94 !important;
 }
+.bgblack{
+    background-color: #161C28;
+}
 @media (min-width:250px) and (max-width:990px) {
         .hau {
             width: 100%;
@@ -103,8 +106,11 @@
 @media (min-width:200px) and (max-width:410px) {
     .cla{
         display: flex;
-        flex-direction: column;
+        gap: 2px;
     }
+     .moin{
+        width: 40px;
+     }
 }
 .ver{
     background-color: #52BD94;
@@ -127,5 +133,8 @@
     .coll {
         display: flex;
         flex-direction: column;
+    }
+    .ima{
+        margin-bottom: 30px;
     }
 }
