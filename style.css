@@ -62,6 +62,18 @@
 .pad{
     padding-top: 125px;
 }
+.forme{
+    background-color: #222938;
+}
+.nav .nav-link{
+    color: #52BD94;
+}
+.nav .nav-link:hover {
+    color: #52BD94;
+}
+.nav .active{
+    background-color: #52BD94 !important;
+}
 @media (min-width:250px) and (max-width:990px) {
         .hau {
             width: 100%;
@@ -94,7 +106,7 @@
         flex-direction: column;
     }
 }
-.fa-solid{
+.ver{
     background-color: #52BD94;
     padding: 10px;
     border-radius: 50%;
